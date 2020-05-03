@@ -11,3 +11,6 @@ This script will fetch top linkedin profiles based on 'profile' and 'location'.Y
 * replace all the details that are required in script.py
 
 <b>Output</b>- output.csv (will automatically get created)
+
+
+Made with ❤ by Harneet Singh 
