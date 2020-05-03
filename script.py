@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 writer = csv.writer(open('output.csv', 'w+', encoding='utf-8-sig', newline=''))
 writer.writerow(['Name', 'Position', 'Company', 'Education', 'Location', 'URL'])
 
-# login into your llinkedin account to scrap other profiles using selenium webdriver
+# login into your linkedin account to scrap other profiles using selenium webdriver
 driver = webdriver.Chrome('C://Users/Work/Downloads/chromedriver_win32/chromedriver')
 driver.get('https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin')
 # replace 'you email id' with email id associated with your linkedin account
@@ -72,5 +72,5 @@ for url in urls:
                  url])
 # shutdown the webdriver
 driver.quit()
-
+print("Made with ❤ by Harneet Singh ")
 
