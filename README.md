@@ -1,6 +1,5 @@
 # Web-scraping-using-python-scrapy-and-selenium
-This script is just for learning purpose.
-
+This script will fetch top linkedin profiles based on 'profile' and 'location'.You will get Name, Position, Company, Education, location and url and save them in csv file. This script is just for learning purpose.
 
 <b>Scripting language used </b>Python
 
